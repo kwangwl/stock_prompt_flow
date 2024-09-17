@@ -1,6 +1,7 @@
 from function import get_ticker
 
-event = {}
+event = {"node": {'inputs': [{"name": "Name", "value": "삼성전자"}]}}
 
+answer = get_ticker.lambda_handler(event, None)
 
-get_ticker.lambda_handler()
+print(answer)
