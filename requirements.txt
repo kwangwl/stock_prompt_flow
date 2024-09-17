@@ -2,3 +2,4 @@ pandas
 yfinance
 finance-datareader
 plotly
+boto3
